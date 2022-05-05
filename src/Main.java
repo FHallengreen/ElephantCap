@@ -81,7 +81,7 @@ public class Main {
         for (int i = 0; i < price.size(); i++) {
             totalPrice += price.get(i);
         }
-        System.out.println("You're total purchase is " + totalPrice + " USD");
+        System.out.println("Your total purchase is " + totalPrice + " USD");
 
         if (totalPrice >= 1000 && totalPrice < 5000) {
            totalPrice *= 0.97;
